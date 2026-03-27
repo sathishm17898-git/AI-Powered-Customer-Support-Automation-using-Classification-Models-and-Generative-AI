@@ -16,7 +16,7 @@ This project builds a customer support automation system using classification mo
 - TF‑IDF + engineered features → Logistic Regression, Gaussian NB, Linear SVM.
 - Max F1 score: 51%.
 - Sentence Transformer (all-MiniLM-L12-v2) + engineered features → same classifiers.
-- Max F1 score: 51%.
+- Max F1 score: 32%.
 3. Deep Learning:
 - TensorFlow tokenizer + padding (max length = 100).
 - Trainable Embedding layer → Bidirectional LSTM (dropout 0.3, recurrent dropout 0.3).
